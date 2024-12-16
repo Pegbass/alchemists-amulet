@@ -13,7 +13,8 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Alchemist's Amulet"
+	name = "Alchemist's Amulet",
+	description = "Show the number of Alchemist's Amulet charges remaining"
 )
 public class AlchemistsAmuletPlugin extends Plugin
 {

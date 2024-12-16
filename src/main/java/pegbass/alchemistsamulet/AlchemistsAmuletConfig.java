@@ -10,7 +10,7 @@ public interface AlchemistsAmuletConfig extends Config
 	@ConfigItem(
 		keyName = "infobox",
 		name = "Show Infobox",
-		description = "Show the Alchemist's Amulet's charges in an infobox"
+		description = "Show amulet charges in an infobox"
 	)
 	default boolean infobox()
 	{
